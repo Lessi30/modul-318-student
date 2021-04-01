@@ -25,7 +25,7 @@
         public void StationBoard()
         {
             testee = new Transport();
-            var stationBoard = this.testee.GetStationBoard("Sursee", "8502007");
+            var stationBoard = this.testee.GetStationBoard("Sursee");
 
             Assert.IsNotNull(stationBoard);
         }
